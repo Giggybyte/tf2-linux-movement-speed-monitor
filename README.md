@@ -46,3 +46,7 @@ gcc -lm -D _GNU_SOURCE -Wall -Wextra tf2-spdmon.c -o tf2-spdmon
 sudo ./tf2-spdmon
 ```
 Superuser permissions are required to read the memory of other processes.
+
+## TODO
+- Add code comments for anyone stumbling across the repo.
+- Figure out an in-game overlay if possible.
