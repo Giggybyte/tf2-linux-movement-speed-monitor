@@ -22,6 +22,7 @@ There are two values of interest that I use to calculate my horizontal velocity:
    on axis 1
 - `client.so+0x218B848` contains a float representing your horizontal velocity
    on axis 2
+
 In the code, I assume that these two adjacent addresses are the x and y values,
 but they could be y and x internally. In any case, it doesn't matter as far as 
 the math is concerned. Once I have those two values, the Pythagorean theorem can
